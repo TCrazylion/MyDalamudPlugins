@@ -100,54 +100,74 @@
 		"DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/Redirect_1.1.0.1.zip"
 	},
 	{
-        "Author": "UnknownX",
-        "Name": "NoClippy",
-        "Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
-        "Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
-        "Changelog": "",
-        "InternalName": "NoClippy",
-        "AssemblyVersion": "0.4.0.9",
-        "RepoUrl": "https://github.com/UnknownX7/NoClippy",
-        "ApplicableVersion": "any",
-        "CategoryTags": [
-            "jobs",
-            "utility"
-        ],
-        "DalamudApiLevel": 6,
-        "IconUrl": "",
-        "ImageUrls": [
-            ""
-        ],
-        "DownloadLinkInstall": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1651004777"
-    },
+		"Author": "UnknownX",
+		"Name": "NoClippy",
+		"Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
+		"Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
+		"Changelog": "",
+		"InternalName": "NoClippy",
+		"AssemblyVersion": "0.4.0.9",
+		"RepoUrl": "https://github.com/UnknownX7/NoClippy",
+		"ApplicableVersion": "any",
+		"CategoryTags": [
+			"jobs",
+			"utility"
+		],
+		"DalamudApiLevel": 6,
+		"IconUrl": "",
+		"ImageUrls": [
+			""
+		],
+		"DownloadLinkInstall": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"DownloadLinkTesting": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/NoClippy/latest.zip",
+		"DownloadCount": 0,
+		"LastUpdate": "1651004777"
+	},
 	{
-        "Author": "Horoscope developers",
-        "Name": "Divination.AetheryteLinkInChat",
-        "InternalName": "Divination.AetheryteLinkInChat",
-        "AssemblyVersion": "0.1.0.44",
-        "Description": "当聊天栏出现地图坐标时,在末尾添加传送到最近的以太之光,需要安装Teleporter插件.",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "teleporter"
-        ],
-        "CategoryTags": [
-            "utility"
-        ],
-        "DalamudApiLevel": 5,
-        "LoadPriority": 0,
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "LastUpdate": 0,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-        "IconUrl": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/icon.png",
-        "DownloadCount": 0
+		"Author": "Horoscope developers",
+		"Name": "Divination.AetheryteLinkInChat",
+		"InternalName": "Divination.AetheryteLinkInChat",
+		"AssemblyVersion": "0.1.0.44",
+		"Description": "当聊天栏出现地图坐标时,在末尾添加传送到最近的以太之光,需要安装Teleporter插件.",
+		"ApplicableVersion": "any",
+		"Tags": [
+			"teleporter"
+		],
+		"CategoryTags": [
+			"utility"
+		],
+		"DalamudApiLevel": 5,
+		"LoadPriority": 0,
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"LastUpdate": 0,
+		"DownloadLinkInstall": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
+		"DownloadLinkTesting": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
+		"DownloadLinkUpdate": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
+		"IconUrl": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/icon.png",
+		"DownloadCount": 0
+	},
+	{
+		"Author": "Eternita",
+		"Name": "EnmityHp",
+		"Punchline": "Displays enemies hp in enemy list",
+		"Description": "",
+		"InternalName": "EnmityHp",
+		"AssemblyVersion": "2.0.0.5",
+		"RepoUrl": "https://github.com/Eternita-S/EnmityHp",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": 6,
+		"IconUrl": "",
+		"ImageUrls": [],
+		"DownloadLinkInstall": "https://github.com/Eternita-S/MyDalamudPlugins/raw/main/EnmityHp/latest.zip",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"DownloadLinkTesting": "https://github.com/Eternita-S/MyDalamudPlugins/raw/main/EnmityHp/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/Eternita-S/MyDalamudPlugins/raw/main/EnmityHp/latest.zip",
+		"DownloadCount": 0,
+		"LastUpdated": "0"
 	}
 ]
