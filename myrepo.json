@@ -192,5 +192,26 @@
 		"DownloadLinkUpdate": "https://github.com/Eternita-S/MyDalamudPlugins/raw/main/EnmityHp/latest.zip",
 		"DownloadCount": 0,
 		"LastUpdated": "0"
-	}
+	},
+	{
+		"Author": "XiYu",
+		"Name": "Gold Saucer Assist",
+		"Description": "A plugin for Gold Saucer",
+		"InternalName": "GoldSaucerAssist",
+		"AssemblyVersion": "2.1.0.0",
+		"RepoUrl": "",
+		"ApplicableVersion": "any",
+		"Tags": [ "Gold Saucer", "Slice is Right", "Xiyu" ],
+		"DalamudApiLevel": 5,
+		"Testing": false,
+		"InstalledFromUrl": null,
+		"Punchline": "Gold Saucer",
+		"DownloadLinkInstall": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/GoldSaucerAssist/latest.zip",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"DownloadLinkTesting": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/GoldSaucerAssist/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/GoldSaucerAssist/latest.zip",
+		"DownloadCount": 0,
+		"LastUpdated": "1618843696"
+	  }
 ]
