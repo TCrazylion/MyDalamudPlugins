@@ -127,28 +127,28 @@
 		"LastUpdate": "1651004777"
 	},
 	{
-        "Author": "UnknownX",
-        "Name": "Fractionality",
-        "Punchline": "Changes /wait and <wait> to support fractions",
-        "Description": "Adds 3 decimal precision waiting to macros and removes the 60 seconds cap.",
-        "Changelog": "",
-        "InternalName": "Fractionality",
-        "AssemblyVersion": "1.0.1.2",
-        "RepoUrl": "https://github.com/UnknownX7/Fractionality",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 6,
-        "IconUrl": "",
-        "ImageUrls": [
-            ""
-        ],
-        "DownloadLinkInstall": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1653186885"
-    },
+		"Author": "UnknownX",
+		"Name": "Fractionality",
+		"Punchline": "Changes /wait and <wait> to support fractions",
+		"Description": "Adds 3 decimal precision waiting to macros and removes the 60 seconds cap.",
+		"Changelog": "",
+		"InternalName": "Fractionality",
+		"AssemblyVersion": "1.0.1.2",
+		"RepoUrl": "https://github.com/UnknownX7/Fractionality",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": 6,
+		"IconUrl": "",
+		"ImageUrls": [
+			""
+		],
+		"DownloadLinkInstall": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"DownloadLinkTesting": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/UnknownX7/DalamudPluginRepo/raw/master/plugins/Fractionality/latest.zip",
+		"DownloadCount": 0,
+		"LastUpdate": "1653186885"
+	},
 	{
 		"Author": "Horoscope developers",
 		"Name": "Divination.AetheryteLinkInChat",
@@ -201,7 +201,11 @@
 		"AssemblyVersion": "2.1.0.0",
 		"RepoUrl": "",
 		"ApplicableVersion": "any",
-		"Tags": [ "Gold Saucer", "Slice is Right", "Xiyu" ],
+		"Tags": [
+			"Gold Saucer",
+			"Slice is Right",
+			"Xiyu"
+		],
 		"DalamudApiLevel": 5,
 		"Testing": false,
 		"InstalledFromUrl": null,
@@ -213,5 +217,5 @@
 		"DownloadLinkUpdate": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/GoldSaucerAssist/latest.zip",
 		"DownloadCount": 0,
 		"LastUpdated": "1618843696"
-	  }
+	}
 ]
