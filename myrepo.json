@@ -147,30 +147,6 @@
 		"LastUpdate": "1653186885"
 	},
 	{
-		"Author": "Horoscope developers",
-		"Name": "Divination.AetheryteLinkInChat",
-		"InternalName": "Divination.AetheryteLinkInChat",
-		"AssemblyVersion": "0.1.0.44",
-		"Description": "当聊天栏出现地图坐标时,在末尾添加传送到最近的以太之光,需要安装Teleporter插件.",
-		"ApplicableVersion": "any",
-		"Tags": [
-			"teleporter"
-		],
-		"CategoryTags": [
-			"utility"
-		],
-		"DalamudApiLevel": 5,
-		"LoadPriority": 0,
-		"IsHide": false,
-		"IsTestingExclusive": false,
-		"LastUpdate": 0,
-		"DownloadLinkInstall": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-		"DownloadLinkTesting": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-		"DownloadLinkUpdate": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/Divination.AetheryteLinkInChat.zip",
-		"IconUrl": "https://raw.githubusercontent.com/zhouhuichen741/dalamud-plugins/master/plugins/Divination.AetheryteLinkInChat/icon.png",
-		"DownloadCount": 0
-	},
-	{
 		"Author": "XiYu",
 		"Name": "Gold Saucer Assist",
 		"Description": "A plugin for Gold Saucer",
