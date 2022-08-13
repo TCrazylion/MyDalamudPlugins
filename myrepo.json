@@ -73,30 +73,6 @@
 		"LastUpdated": "1660131872"
 	},
 	{
-		"Author": "Cair",
-		"Name": "Redirect",
-		"InternalName": "Redirect",
-		"AssemblyVersion": "1.2.0.1",
-		"Description": "Easily change the targeting priority for spells and abilities. Queue macros, sprint, and potions! Type /redirect to configure.",
-		"ApplicableVersion": "any",
-		"RepoUrl": "https://github.com/cairthenn/Redirect",
-		"CategoryTags": [
-			"jobs",
-			"utility"
-		],
-		"DalamudApiLevel": 6,
-		"LoadPriority": 0,
-		"Punchline": "Change where your actions are going, queue macros, queue sprint, and queue potions!",
-		"IsHide": "False",
-		"TestingAssemblyVersion": "1.0.3.1",
-		"IsTestingExclusive": "False",
-		"DownloadCount": 10181,
-		"LastUpdate": "1651404128",
-		"DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/Redirect?isUpdate=False&isTesting=False&branch=api6",
-		"DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/Redirect?isUpdate=False&isTesting=True&branch=api6",
-		"DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Redirect/latest.zip"
-	},
-	{
 		"Author": "UnknownX",
 		"Name": "NoClippy",
 		"Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
