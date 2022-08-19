@@ -4,18 +4,15 @@
 		"Name": "JobAssist",
 		"Description": "A plugin to do something that you always forget",
 		"InternalName": "JobAssist",
-		"AssemblyVersion": "2.0.0.6",
+		"AssemblyVersion": "2.1.0.0",
 		"RepoUrl": "",
 		"ApplicableVersion": "any",
-		"Tags": [
-			"Ninjutsu",
-			"Assist",
-			"Xiyu"
-		],
-		"DalamudApiLevel": 5,
+		"Tags": [ "Ninjutsu", "Assist", "Xiyu" ],
+		"DalamudApiLevel": 6,
 		"Testing": false,
 		"InstalledFromUrl": null,
 		"Punchline": "Job Assist",
+	
 		"DownloadLinkInstall": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/JobAssist/latest.zip",
 		"IsHide": false,
 		"IsTestingExclusive": false,
@@ -23,7 +20,7 @@
 		"DownloadLinkUpdate": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/JobAssist/latest.zip",
 		"DownloadCount": 0,
 		"LastUpdated": "1618843696"
-	},
+	  },
 	{
 		"Author": "Sevii",
 		"Name": "Material UI",
@@ -130,11 +127,7 @@
 		"AssemblyVersion": "2.1.0.0",
 		"RepoUrl": "",
 		"ApplicableVersion": "any",
-		"Tags": [
-			"Gold Saucer",
-			"Slice is Right",
-			"Xiyu"
-		],
+		"Tags": [ "Gold Saucer", "Slice is Right", "Xiyu" ],
 		"DalamudApiLevel": 5,
 		"Testing": false,
 		"InstalledFromUrl": null,
@@ -146,7 +139,7 @@
 		"DownloadLinkUpdate": "https://github.com/Karlin-Z/DalamudPlugins/raw/Api4/plugins/GoldSaucerAssist/latest.zip",
 		"DownloadCount": 0,
 		"LastUpdated": "1618843696"
-	},
+	  },
 	{
 		"Author": "akira0245",
 		"Name": "MidiBard",
