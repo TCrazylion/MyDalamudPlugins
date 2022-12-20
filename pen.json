@@ -16,9 +16,9 @@
         "LoadPriority": 69420,
         "LoadRequiredState": 2,
         "LoadSync": true,
-        "DownloadLinkInstall": "https://github.com/xivdev/Penumbra/releases/download/0.6.0.6/Penumbra.zip",
-        "DownloadLinkTesting": "https://github.com/xivdev/Penumbra/releases/download/0.6.0.6/Penumbra.zip",
-        "DownloadLinkUpdate": "https://github.com/xivdev/Penumbra/releases/download/0.6.0.6/Penumbra.zip",
+        "DownloadLinkInstall": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/Penumbra.zip",
+        "DownloadLinkTesting": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/Penumbra.zip",
+        "DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/Penumbra.zip",
         "IconUrl": "https://raw.githubusercontent.com/xivdev/Penumbra/master/images/icon.png"
     }
 ]
