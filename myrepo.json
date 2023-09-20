@@ -221,49 +221,49 @@
 		"LastUpdated": "1695051857"
 	},
 	{
-        "ApplicableVersion": "any",
-        "AssemblyVersion": "0.0.0.19",
-        "Author": "Bluefissure, Papachin",
-        "DalamudApiLevel": 8,
-        "Description": "Papa asked me for this so here it is.",
-        "DownloadCount": 0,
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
-        "IconUrl": "https://raw.githubusercontent.com/Bluefissure/MultiHit/CN/images/icon.png",
-        "InternalName": "MultiHit",
-        "IsHide": "False",
-        "IsTestingExclusive": "False",
-        "LastUpdate": 0,
-        "Name": "MultiHit",
-        "Punchline": "Split flytext into multiple hits.",
-        "RepoUrl": "https://github.com/Bluefissure/MultiHit",
-        "TestingAssemblyVersion": "0.0.0.19"
-    },
+		"ApplicableVersion": "any",
+		"AssemblyVersion": "0.0.0.19",
+		"Author": "Bluefissure, Papachin",
+		"DalamudApiLevel": 8,
+		"Description": "Papa asked me for this so here it is.",
+		"DownloadCount": 0,
+		"DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
+		"DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
+		"DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
+		"IconUrl": "https://raw.githubusercontent.com/Bluefissure/MultiHit/CN/images/icon.png",
+		"InternalName": "MultiHit",
+		"IsHide": "False",
+		"IsTestingExclusive": "False",
+		"LastUpdate": 0,
+		"Name": "MultiHit",
+		"Punchline": "Split flytext into multiple hits.",
+		"RepoUrl": "https://github.com/Bluefissure/MultiHit",
+		"TestingAssemblyVersion": "0.0.0.19"
+	},
 	{
-        "Author": "Nuko",
-        "Name": "S怪触发小助手-Extra",
-        "Punchline": "一个触发S怪用的小工具, 但是底裤比较低",
-        "Description": "一个触发S怪用的小工具, 但是底裤比较低",
-        "Changelog": "",
-        "InternalName": "RankSSpawnHelper-Extra",
-        "AssemblyVersion": "1.0.0.13",
-        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "S怪触发",
-            "触发",
-            "S怪"
-        ],
-        "DalamudApiLevel": 8,
-        "DownloadLinkInstall": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1690025244"
-    },
+		"Author": "Nuko",
+		"Name": "S怪触发小助手-Extra",
+		"Punchline": "一个触发S怪用的小工具, 但是底裤比较低",
+		"Description": "一个触发S怪用的小工具, 但是底裤比较低",
+		"Changelog": "",
+		"InternalName": "RankSSpawnHelper-Extra",
+		"AssemblyVersion": "1.0.0.13",
+		"RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
+		"ApplicableVersion": "any",
+		"Tags": [
+			"S怪触发",
+			"触发",
+			"S怪"
+		],
+		"DalamudApiLevel": 8,
+		"DownloadLinkInstall": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/extra/plugins/RankSSpawnHelper-Extra/latest.zip",
+		"DownloadCount": 0,
+		"LastUpdate": "1690025244"
+	},
 	{
 		"Author": "yomishino",
 		"Name": "Aether Compass",
@@ -273,11 +273,11 @@
 		"ApplicableVersion": "any",
 		"RepoUrl": "https://github.com/yomishino/FFXIVAetherCompass",
 		"Tags": [
-		  "map",
-		  "compass"
+			"map",
+			"compass"
 		],
 		"CategoryTags": [
-		  "UI"
+			"UI"
 		],
 		"DalamudApiLevel": 8,
 		"LoadRequiredState": 0,
@@ -288,5 +288,5 @@
 		"AcceptsFeedback": true,
 		"_isDip17Plugin": true,
 		"_Dip17Channel": "testing-live"
-	  }
+	}
 ]
