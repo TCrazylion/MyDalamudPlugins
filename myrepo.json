@@ -155,11 +155,11 @@
 	},
 	{
 		"Author": "NightmareXIV",
-		"Name": "SplatoonX",
-		"Punchline": "国服画家 6.4CN 解限特供 ",
+		"Name": "Splatoon",
+		"Punchline": "国服画家 6.4CN 解限特供 修复备份bug ",
 		"Description": "国服特供SPLX 6.4CN 仅支持在线安装，本地加载有问题请使用库链接更新。",
 		"InternalName": "SplatoonX",
-		"AssemblyVersion": "10.3.4.2",
+		"AssemblyVersion": "10.3.4.3",
 		"RepoUrl": "https://github.com/PunishXIV/Splatoon",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 8,
@@ -204,7 +204,7 @@
 		"Punchline": "\u9501\u5b9a",
 		"Description": "\u9501\u5b9aBOSS /LockBOSS change 1 \u9760\u8fd1\u6c34\u6676\u5207\u63621\u53f7\u7ebf\u8def",
 		"InternalName": "Lock",
-		"AssemblyVersion": "1.0.2.7",
+		"AssemblyVersion": "1.0.2.7.1",
 		"RepoUrl": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 8,
@@ -216,7 +216,7 @@
 		"DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
 		"DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
 		"DownloadCount": 0,
-		"LastUpdated": "1695211045"
+		"LastUpdated": "1695387038"
 	},
 	{
 		"Author": "XiYu",
@@ -334,5 +334,32 @@
 		"FeedbackMessage": "Submit only bugs to https://github.com/anna/plugin-issues",
 		"_isDip17Plugin": true,
 		"_Dip17Channel": "stable"
+	},
+	{
+		"Author": "LeonBlade",
+		"Name": "Burning Down the House",
+		"Description": "Move around housing items with coordinates and allows you to place anywhere.",
+		"InternalName": "BDTHPlugin",
+		"AssemblyVersion": "1.5.9",
+		"RepoUrl": "https://github.com/LeonBlade/BDTHPlugin",
+		"ApplicableVersion": "any",
+		"Tags": [
+			"bdth",
+			"housing",
+			"float",
+			"place",
+			"glitch",
+			"furnishing",
+			"LeonBlade"
+		],
+		"DalamudApiLevel": 8,
+		"IconUrl": "https://github.com/LeonBlade/BDTHPlugin/raw/main/icon.png",
+		"IsHide": "False",
+		"IsTestingExclusive": "False",
+		"LastUpdated": 1682384035,
+		"DownloadCount": 68294,
+		"DownloadLinkInstall": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.5.9/BDTHPlugin.zip",
+		"DownloadLinkTesting": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.5.9/BDTHPlugin.zip",
+		"DownloadLinkUpdate": "https://github.com/LeonBlade/BDTHPlugin/releases/download/1.5.9/BDTHPlugin.zip"
 	}
 ]
