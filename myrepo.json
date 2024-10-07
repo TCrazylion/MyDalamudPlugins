@@ -165,7 +165,7 @@
 		"Punchline": "\u9501\u5b9a",
 		"Description": "\u9501\u5b9aBOSS /LockBOSS change 1 \u9760\u8fd1\u6c34\u6676\u5207\u63621\u53f7\u7ebf\u8def",
 		"InternalName": "Lock",
-		"AssemblyVersion": "1.0.3.0",
+		"AssemblyVersion": "1.0.3.1",
 		"RepoUrl": "",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 10,
@@ -177,7 +177,7 @@
 		"DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
 		"DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
 		"DownloadCount": 0,
-		"LastUpdated": "1722383307"
+		"LastUpdated": "1728129030"
 	},
 	{
 		"ApplicableVersion": "any",
