@@ -231,29 +231,6 @@
 		"LastUpdate": "1728652445"
 	},
 	{
-		"Author": "Nuko",
-		"Name": "S怪触发小助手",
-		"Punchline": "一个触发S怪用的小工具",
-		"Description": "一个触发S怪用的小工具",
-		"InternalName": "RankSSpawnHelper",
-		"AssemblyVersion": "1.3.7.6",
-		"RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
-		"ApplicableVersion": "any",
-		"Tags": [
-			"S怪触发",
-			"触发",
-			"S怪"
-		],
-		"DalamudApiLevel": 10,
-		"DownloadLinkInstall": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/RankSSpawnHelper/latest.zip",
-		"IsHide": false,
-		"IsTestingExclusive": false,
-		"DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/RankSSpawnHelper/latest.zip",
-		"DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/RankSSpawnHelper/latest.zip",
-		"DownloadCount": 0,
-		"LastUpdate": "1728652445"
-	},
-	{
 		"Author": "LeonBlade",
 		"Name": "Burning Down the House",
 		"Description": "Move around housing items with coordinates and allows you to place anywhere.",
