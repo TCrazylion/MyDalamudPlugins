@@ -275,8 +275,8 @@
 		"DalamudApiLevel": 10,
 		"IsHide": "False",
 		"IsTestingExclusive": "False",
-		"DownloadLinkInstall": "https://raw.githubusercontent.com/TCrazylion/MyDalamudPlugins/refs/heads/main/plugins/chat2.zip",
-		"DownloadLinkTesting": "https://raw.githubusercontent.com/TCrazylion/MyDalamudPlugins/refs/heads/main/plugins/chat2.zip",
-		"DownloadLinkUpdate": "https://raw.githubusercontent.com/TCrazylion/MyDalamudPlugins/refs/heads/main/plugins/chat2.zip"
+		"DownloadLinkInstall": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
+		"DownloadLinkTesting": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
+		"DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip"
 	}
 ]
