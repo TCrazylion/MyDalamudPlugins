@@ -55,11 +55,11 @@
 		"Tags": [],
 		"InternalName": "YesAlready",
 		"RepoUrl": "https://github.com/PunishXIV/YesAlready",
-		"DownloadCount": 369377,
-		"LastUpdate": 1727173621409,
+		"DownloadCount": 440440,
+		"LastUpdate": 1729541816556,
 		"DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
 		"DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
-		"AssemblyVersion": "1.8.0",
+		"AssemblyVersion": "1.8.5",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": "10",
 		"Changelog": "",
@@ -181,14 +181,14 @@
 	},
 	{
 		"ApplicableVersion": "any",
-		"AssemblyVersion": "1.2.1.501",
+		"AssemblyVersion": "1.3.0.100",
 		"Author": "Ottermandias, Adam, Wintermute",
 		"DalamudApiLevel": 10,
 		"Description": "运行时模组加载和管理器。",
 		"DownloadCount": 0,
-		"DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.2.1.501",
-		"DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.2.1.501",
-		"DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.2.1.501",
+		"DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.3.0.100",
+		"DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.3.0.100",
+		"DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/1.3.0.100",
 		"IconUrl": "https://raw.githubusercontent.com/MeowZWR/Penumbra-CN/master/images/icon.png",
 		"InternalName": "Penumbra",
 		"IsHide": "False",
@@ -203,7 +203,7 @@
 		"Tags": [
 			"Sea Of Stars"
 		],
-		"TestingAssemblyVersion": "1.2.1.501",
+		"TestingAssemblyVersion": "1.3.0.100",
 		"TestingDalamudApiLevel": 10
 	},
 	{
