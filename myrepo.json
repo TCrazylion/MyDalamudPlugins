@@ -309,5 +309,27 @@
 		"DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
 		"DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
 		"DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
+	},
+	{
+		"AcceptsFeedback": false,
+		"ApplicableVersion": "any",
+		"AssemblyVersion": "0.2.2.0",
+		"Author": "Sevii",
+		"DalamudApiLevel": 11,
+		"Description": "Auto updates mods and allows for more customization such as color and compositing onto other files",
+		"DownloadCount": 103527,
+		"DownloadLinkInstall": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/aetherment.zip",
+		"DownloadLinkTesting": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/aetherment.zip",
+		"DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/aetherment.zip",
+		"InternalName": "Aetherment",
+		"IsHide": false,
+		"IsTestingExclusive": false,
+		"Name": "Aetherment",
+		"Punchline": "Auto-updating and more customizable mods",
+		"RepoUrl": "https://github.com/Sevii77/aetherment",
+		"Tags": [
+			"Ui",
+			"Modding"
+		]
 	}
 ]
