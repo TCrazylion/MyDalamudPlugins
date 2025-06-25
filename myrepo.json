@@ -286,5 +286,29 @@
 			"Ui",
 			"Modding"
 		]
+	},
+	{
+		"Author": "Taurenkey, croizat",
+		"Name": "Pandora's Box",
+		"Punchline": "Do you dare to open Pandora's Box?",
+		"Description": "Pandora's Box is a collection of major QoL tweaks and adjustments.\n\nOpen the box with /pandora",
+		"Tags": [
+			"punish",
+			"plugin"
+		],
+		"InternalName": "PandorasBox",
+		"RepoUrl": "https://github.com/PunishXIV/PandorasBox",
+		"DownloadCount": 733886,
+		"LastUpdate": 1749106325146,
+		"DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
+		"DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
+		"AssemblyVersion": "1.6.3.8",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": "12",
+		"Changelog": "- Adds key items to /puseitem.",
+		"TestingAssemblyVersion": "1.5.4.1",
+		"DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
+		"TestingDalamudApiLevel": "9",
+		"IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
 	}
 ]
