@@ -1,9 +1,16 @@
 name: Update Dalamud Plugins
 
 on:
+  push:
+    branches: [ main, master ]  # 主分支提交时触发
+    paths-ignore:
+      - 'myrepo.json'  # 忽略插件数据文件的更改，避免无限循环
+      - 'plugins/**'   # 忽略插件目录的更改
+      - '*.md'         # 忽略文档文件的更改
+  pull_request:
+    branches: [ main, master ]  # PR时也触发
   schedule:
-    # 每天UTC时间00:00运行 (北京时间08:00)
-    - cron: '0 */8 * * *'  # 每8小时运行一次
+    - cron: '0 */8 * * *'  # 保留定时运行作为备份（每8小时）
   workflow_dispatch:  # 允许手动触发
 
 jobs:

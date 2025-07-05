@@ -1,9 +1,6 @@
 name: Update Dalamud Plugins (Enhanced)
 
 on:
-  schedule:
-    # 每天UTC时间00:00运行 (北京时间08:00)
-    - cron: '0 0 * * *'
   workflow_dispatch:  # 允许手动触发
     inputs:
       force_update:
