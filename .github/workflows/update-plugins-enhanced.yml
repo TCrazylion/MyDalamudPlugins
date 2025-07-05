@@ -15,6 +15,9 @@ on:
 jobs:
   update-plugins:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     
     steps:
     - name: Checkout repository

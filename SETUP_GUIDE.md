@@ -19,7 +19,7 @@ git commit -m "Add GitHub Action for automated plugin updates"
 git push origin main
 ```
 
-### 2. 启用Actions权限
+### 2. 启用Actions权限 ⚠️ **重要**
 1. 进入GitHub仓库
 2. 点击 **Settings** 标签
 3. 在左侧菜单选择 **Actions** → **General**
@@ -27,6 +27,8 @@ git push origin main
    - 选择 ✅ **Read and write permissions**
    - 勾选 ✅ **Allow GitHub Actions to create and approve pull requests**
 5. 点击 **Save** 保存设置
+
+> **注意**: 如果跳过此步骤，Action将因权限不足而失败！
 
 ## ⚡ 运行方式
 
