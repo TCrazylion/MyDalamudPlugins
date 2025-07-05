@@ -19,6 +19,8 @@ jobs:
     permissions:
       contents: write
       actions: read
+    env:
+      TZ: 'Asia/Shanghai'  # 设置时区为东八区
     
     steps:
     - name: Checkout repository
@@ -26,6 +28,11 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
+    
+    - name: Set timezone
+      run: |
+        sudo timedatectl set-timezone Asia/Shanghai
+        echo "当前时间: $(date +'%Y-%m-%d %H:%M:%S %Z')"
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -56,5 +63,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Auto-update plugins $(date +'%Y-%m-%d %H:%M:%S')"
+        git commit -m "Auto-update plugins $(date +'%Y-%m-%d %H:%M:%S %Z')"
         git push

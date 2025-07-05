@@ -15,6 +15,8 @@ jobs:
     permissions:
       contents: write
       actions: read
+    env:
+      TZ: 'Asia/Shanghai'  # 设置时区为东八区
     
     steps:
     - name: Checkout repository
@@ -22,6 +24,11 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
+    
+    - name: Set timezone
+      run: |
+        sudo timedatectl set-timezone Asia/Shanghai
+        echo "当前时间: $(date +'%Y-%m-%d %H:%M:%S %Z')"
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -140,7 +147,7 @@ jobs:
         git config --local user.name "GitHub Action Bot"
         
         # 生成详细的提交信息
-        commit_msg="Auto-update plugins $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        commit_msg="Auto-update plugins $(date +'%Y-%m-%d %H:%M:%S %Z')"
         
         if [ -f update_log.txt ]; then
           found_count=$(grep -c "找到插件:" update_log.txt || echo "0")
@@ -163,4 +170,4 @@ jobs:
         echo "=== Workflow Summary ==="
         echo "Status: ${{ job.status }}"
         echo "Changes: ${{ steps.verify-changed-files.outputs.changed }}"
-        echo "Timestamp: $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        echo "Timestamp: $(date +'%Y-%m-%d %H:%M:%S %Z')"
