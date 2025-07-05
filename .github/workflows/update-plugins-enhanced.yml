@@ -1,0 +1,166 @@
+name: Update Dalamud Plugins (Enhanced)
+
+on:
+  schedule:
+    # 每天UTC时间00:00运行 (北京时间08:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  update-plugins:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Backup current myrepo.json
+      run: |
+        if [ -f myrepo.json ]; then
+          cp myrepo.json myrepo.json.backup
+          echo "Backup created"
+        else
+          echo "No existing myrepo.json found"
+        fi
+    
+    - name: Run plugin updater
+      id: update_plugins
+      run: |
+        echo "Starting plugin update..."
+        python plugin_updater.py > update_log.txt 2>&1
+        echo "Plugin update completed"
+        
+        # 显示日志摘要
+        echo "=== Update Log Summary ==="
+        grep -E "(找到插件|未找到插件|成功保存|跳过)" update_log.txt || true
+        echo "=========================="
+      continue-on-error: true
+    
+    - name: Upload update log
+      uses: actions/upload-artifact@v3
+      with:
+        name: update-log-${{ github.run_number }}
+        path: update_log.txt
+        retention-days: 30
+    
+    - name: Check update status
+      run: |
+        if [ ${{ steps.update_plugins.outcome }} != 'success' ]; then
+          echo "Plugin update failed, checking backup..."
+          if [ -f myrepo.json.backup ]; then
+            cp myrepo.json.backup myrepo.json
+            echo "Restored from backup"
+          fi
+          exit 1
+        fi
+    
+    - name: Validate JSON output
+      run: |
+        python -c "
+        import json
+        try:
+            with open('myrepo.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            print(f'✓ JSON格式有效，包含 {len(data)} 个插件')
+            
+            # 基本验证
+            required_fields = ['Name', 'Author', 'InternalName']
+            for i, plugin in enumerate(data[:5]):  # 检查前5个插件
+                for field in required_fields:
+                    if field not in plugin:
+                        print(f'警告: 插件 {i+1} 缺少字段 {field}')
+                        
+        except json.JSONDecodeError as e:
+            print(f'✗ JSON格式错误: {e}')
+            exit(1)
+        except Exception as e:
+            print(f'✗ 验证失败: {e}')
+            exit(1)
+        "
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Changes detected:"
+          git diff --staged --name-only
+        fi
+    
+    - name: Show change summary
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        echo "=== Change Summary ==="
+        git diff --staged --stat
+        
+        if [ -f myrepo.json.backup ]; then
+          echo "=== Plugin Count Comparison ==="
+          old_count=$(python -c "import json; print(len(json.load(open('myrepo.json.backup', 'r', encoding='utf-8'))))" 2>/dev/null || echo "0")
+          new_count=$(python -c "import json; print(len(json.load(open('myrepo.json', 'r', encoding='utf-8'))))" 2>/dev/null || echo "0")
+          echo "Previous: $old_count plugins"
+          echo "Current:  $new_count plugins"
+          echo "Change:   $((new_count - old_count)) plugins"
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        
+        # 生成详细的提交信息
+        commit_msg="Auto-update plugins $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        
+        if [ -f update_log.txt ]; then
+          found_count=$(grep -c "找到插件:" update_log.txt || echo "0")
+          not_found_count=$(grep -c "未找到插件:" update_log.txt || echo "0")
+          commit_msg="$commit_msg - Found: $found_count, Not found: $not_found_count"
+        fi
+        
+        git commit -m "$commit_msg"
+        git push
+    
+    - name: Clean up
+      if: always()
+      run: |
+        rm -f myrepo.json.backup
+        rm -f update_log.txt
+    
+    - name: Summary
+      if: always()
+      run: |
+        echo "=== Workflow Summary ==="
+        echo "Status: ${{ job.status }}"
+        echo "Changes: ${{ steps.verify-changed-files.outputs.changed }}"
+        echo "Timestamp: $(date +'%Y-%m-%d %H:%M:%S UTC')"

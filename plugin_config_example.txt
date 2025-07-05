@@ -1,0 +1,31 @@
+# Dalamud Plugin Sources Configuration
+# 格式: // 插件名1,插件名2,插件名3
+#       插件源URL
+
+# SkipCutscene
+# SkipCutscene
+https://raw.githubusercontent.com/a08381/Dalamud.SkipCutscene/refs/heads/dist/repo.json
+
+# Something Need Doing, Yes Already  
+# Something Need Doing,Yes Already
+https://puni.sh/api/repository/croizat
+
+# ReAction, NoClippy
+# ReAction,NoClippy
+https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json
+
+# JobIcons2, Slice is Right
+# JobIcons2,Slice is Right
+https://raw.githubusercontent.com/xPumaa/DalamudPlugins/main/pluginmaster.json
+
+# SplatoonX
+# SplatoonX
+https://raw.githubusercontent.com/gamous/DalamudPluginsCN-Dev/main/MordionGaol.json
+
+# Auto Hook
+# Auto Hook
+https://raw.githubusercontent.com/uiharuayako/PantsPlugins/master/pluginmaster.json
+
+# Chat Two
+# Chat Two
+https://github.com/goatcorp/PluginDistD17/tree/main/stable/ChatTwo
