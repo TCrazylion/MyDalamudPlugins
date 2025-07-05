@@ -86,26 +86,6 @@ class PluginUpdater:
                 url = url.replace('/tree/', '/')
                 if not url.endswith('.json'):
                     url += '/pluginmaster.json'
-            
-            # 处理GitHub blob链接
-            elif 'github.com' in url and '/blob/' in url:
-                url = url.replace('github.com', 'raw.githubusercontent.com')
-                url = url.replace('/blob/', '/')
-                
-            # 处理releases页面
-            elif 'github.com' in url and '/releases' in url:
-                print(f"跳过releases页面: {url}")
-                return None
-                
-            # 处理特殊插件页面
-            elif 'aetherment.sevii.dev' in url:
-                print(f"跳过特殊插件页面: {url}")
-                return None
-                
-            # 处理特殊的plogon链接
-            elif 'plogon.meowrs.com' in url:
-                print(f"跳过plogon页面: {url}")
-                return None
                 
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
