@@ -7,7 +7,7 @@
         "Tags": [],
         "InternalName": "SomethingNeedDoing",
         "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-        "DownloadCount": 482819,
+        "DownloadCount": 483787,
         "LastUpdate": 1751706931858,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -40,7 +40,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.1/latest.zip",
         "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.1/latest.zip",
-        "DownloadCount": 22434,
+        "DownloadCount": 22451,
         "LastUpdate": "1743025009"
     },
     {
@@ -67,7 +67,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.18/latest.zip",
         "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.18/latest.zip",
-        "DownloadCount": 61129,
+        "DownloadCount": 61219,
         "LastUpdate": "1742952225"
     },
     {
@@ -130,7 +130,7 @@
         "DownloadLinkTesting": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
         "DownloadLinkUpdate": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
         "IconUrl": "",
-        "DownloadCount": 8832
+        "DownloadCount": 8900
     },
     {
         "Author": "LeonBlade",
@@ -158,7 +158,7 @@
         "DownloadLinkUpdate": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.6.9-cn/BDTHPlugin.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/BDTHPlugin/icon.png",
         "Changelog": "",
-        "DownloadCount": 8772
+        "DownloadCount": 8831
     },
     {
         "Author": "Taurenkey (Puni.sh)",
@@ -181,7 +181,7 @@
         "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.43-cn/Artisan.zip",
         "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.43-cn/Artisan.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png",
-        "DownloadCount": 14792
+        "DownloadCount": 15031
     },
     {
         "Author": "akira0245, Ori, Kalle, Zune",
@@ -228,14 +228,14 @@
         ],
         "InternalName": "PandorasBox",
         "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-        "DownloadCount": 737003,
-        "LastUpdate": 1749106325146,
+        "DownloadCount": 741302,
+        "LastUpdate": 1751739587481,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
-        "AssemblyVersion": "1.6.3.8",
+        "AssemblyVersion": "1.6.3.9",
         "ApplicableVersion": "any",
         "DalamudApiLevel": "12",
-        "Changelog": "- Adds key items to /puseitem.",
+        "Changelog": "- Auto-Open chests improvements.",
         "TestingAssemblyVersion": "1.5.4.1",
         "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
         "TestingDalamudApiLevel": "9",
@@ -249,7 +249,7 @@
         "Tags": [],
         "InternalName": "YesAlready",
         "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-        "DownloadCount": 712356,
+        "DownloadCount": 712613,
         "LastUpdate": 1751007793582,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -273,7 +273,7 @@
         ],
         "InternalName": "AutoHook",
         "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-        "DownloadCount": 658811,
+        "DownloadCount": 658872,
         "LastUpdate": 1746757651287,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
