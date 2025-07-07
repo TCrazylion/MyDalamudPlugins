@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ main, master ]  # PR时也触发
   schedule:
-    - cron: '0 */8 * * *'  # 保留定时运行作为备份（每8小时）
+    - cron: '0 17 * * *'  # 保留定时运行作为备份（每天17点）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
