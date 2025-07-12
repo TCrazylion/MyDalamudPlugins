@@ -7,11 +7,11 @@
         "Tags": [],
         "InternalName": "SomethingNeedDoing",
         "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-        "DownloadCount": 501533,
-        "LastUpdate": 1752245502537,
+        "DownloadCount": 502646,
+        "LastUpdate": 1752274558794,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
-        "AssemblyVersion": "12.62",
+        "AssemblyVersion": "12.63",
         "ApplicableVersion": "any",
         "DalamudApiLevel": "12",
         "Changelog": "",
@@ -130,7 +130,7 @@
         "DownloadLinkTesting": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
         "DownloadLinkUpdate": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
         "IconUrl": "",
-        "DownloadCount": 9156
+        "DownloadCount": 9197
     },
     {
         "Author": "LeonBlade",
@@ -158,7 +158,7 @@
         "DownloadLinkUpdate": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.6.9-cn/BDTHPlugin.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/BDTHPlugin/icon.png",
         "Changelog": "",
-        "DownloadCount": 9106
+        "DownloadCount": 9170
     },
     {
         "Author": "Taurenkey (Puni.sh)",
@@ -181,7 +181,7 @@
         "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.43-cn/Artisan.zip",
         "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.43-cn/Artisan.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png",
-        "DownloadCount": 15904
+        "DownloadCount": 16047
     },
     {
         "Author": "akira0245, Ori, Kalle, Zune",
@@ -228,7 +228,7 @@
         ],
         "InternalName": "PandorasBox",
         "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-        "DownloadCount": 774185,
+        "DownloadCount": 774667,
         "LastUpdate": 1751960861602,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -249,7 +249,7 @@
         "Tags": [],
         "InternalName": "YesAlready",
         "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-        "DownloadCount": 715606,
+        "DownloadCount": 715726,
         "LastUpdate": 1751007793582,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -273,7 +273,7 @@
         ],
         "InternalName": "AutoHook",
         "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-        "DownloadCount": 660175,
+        "DownloadCount": 660233,
         "LastUpdate": 1746757651287,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
@@ -300,7 +300,7 @@
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
         "Changelog": "New Tweak: Enhanced Hunting Log\n\nConfiguration options:\n\n- Remember last selected class  \n  The game's default behaviour is to reset the window to the first tab.\n- Automatically select the current class  \n  Only works if a matching class was found. Overrides the option \\\"Remember last selected class\\\" in that case.\n- Automatically set the filter to \"Show Incomplete\" (Thanks to @Bloodsoul)",
-        "DownloadCount": 6943,
+        "DownloadCount": 6967,
         "LastUpdate": 1749774108,
         "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v36.0.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v36.0.0/latest.zip"
