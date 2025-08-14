@@ -1,0 +1,25 @@
+[
+    {
+        "Author": "Infi, Anna",
+        "Name": "Chat 7.2.5",
+        "InternalName": "ChatTwo",
+        "AssemblyVersion": "1.7.2.5",
+        "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
+        "Tags": [
+            "Social",
+            "UI",
+            "Chat",
+            "Replacement"
+        ],
+        "DalamudApiLevel": 12,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "DownloadLinkInstall": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
+        "DownloadLinkTesting": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
+        "DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip"
+    }
+]
