@@ -7,10 +7,10 @@ on:
       - 'myrepo.json'  # 忽略插件数据文件的更改，避免无限循环
       - 'plugins/**'   # 忽略插件目录的更改
       - '*.md'         # 忽略文档文件的更改
-  # pull_request:
-  #   branches: [ main, master ]  # PR时也触发
-  # schedule:
-  #   - cron: '0 0,12 * * *'  # 保留定时运行作为备份（每天0/12点）
+  pull_request:
+    branches: [ main, master ]  # PR时也触发
+  schedule:
+    - cron: '0 0,12 * * *'  # 保留定时运行作为备份（每天0/12点）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
