@@ -136,6 +136,18 @@ class PluginUpdater:
                 return plugin
         return None
         
+    def is_version_different(self, existing_plugin: Dict, new_plugin: Dict) -> bool:
+        """比较两个插件的AssemblyVersion是否不同"""
+        existing_version = existing_plugin.get('AssemblyVersion', '')
+        new_version = new_plugin.get('AssemblyVersion', '')
+        
+        # 如果版本号为空或不存在，认为需要更新
+        if not existing_version or not new_version:
+            return True
+            
+        # 比较版本号字符串
+        return existing_version != new_version
+        
     def update_plugins(self):
         """更新所有目标插件"""
         found_plugins = []
@@ -172,7 +184,7 @@ class PluginUpdater:
             return []
             
     def merge_plugins(self, existing_plugins: List[Dict], new_plugins: List[Dict]) -> List[Dict]:
-        """合并插件列表，避免重复"""
+        """合并插件列表，根据AssemblyVersion变化决定是否更新"""
         # 创建现有插件的映射
         existing_map = {}
         for plugin in existing_plugins:
@@ -180,12 +192,30 @@ class PluginUpdater:
             if name:
                 existing_map[name] = plugin
                 
+        update_count = 0
+        skip_count = 0
+        
         # 添加或更新插件
         for new_plugin in new_plugins:
             name = new_plugin.get('Name') or new_plugin.get('InternalName')
             if name:
-                existing_map[name] = new_plugin
-                
+                if name in existing_map:
+                    existing_plugin = existing_map[name]
+                    # 检查版本是否有变化
+                    if self.is_version_different(existing_plugin, new_plugin):
+                        existing_map[name] = new_plugin
+                        update_count += 1
+                        print(f"更新插件 {name}: {existing_plugin.get('AssemblyVersion', 'unknown')} -> {new_plugin.get('AssemblyVersion', 'unknown')}")
+                    else:
+                        skip_count += 1
+                        print(f"跳过插件 {name}: 版本无变化 ({existing_plugin.get('AssemblyVersion', 'unknown')})")
+                else:
+                    # 新插件，直接添加
+                    existing_map[name] = new_plugin
+                    update_count += 1
+                    print(f"添加新插件 {name}: {new_plugin.get('AssemblyVersion', 'unknown')}")
+                    
+        print(f"\n插件更新统计: 更新/新增 {update_count} 个，跳过 {skip_count} 个")
         return list(existing_map.values())
         
     def save_plugins(self, plugins: List[Dict]):
