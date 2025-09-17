@@ -7,7 +7,7 @@
         "Tags": [],
         "InternalName": "SomethingNeedDoing",
         "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-        "DownloadCount": 605022,
+        "DownloadCount": 605602,
         "LastUpdate": 1757410038657,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/latest.zip",
@@ -40,7 +40,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
         "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
-        "DownloadCount": 16872,
+        "DownloadCount": 17021,
         "LastUpdate": "1754732126"
     },
     {
@@ -67,27 +67,27 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
         "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
-        "DownloadCount": 47588,
+        "DownloadCount": 47830,
         "LastUpdate": "1754723794"
     },
     {
         "Author": "NightmareXIV,Errer(本地特化)",
         "Name": "Splatoon",
-        "Punchline": "国服画家 7.2CN 解限特供，",
-        "Description": "国服特供SPLX 7.2CN ",
+        "Punchline": "国服画家 7.31CN 解限特供，",
+        "Description": "国服特供SPLX 7.31CN ",
         "InternalName": "SplatoonX",
-        "AssemblyVersion": "13.8.1.6",
+        "AssemblyVersion": "13.8.3.0",
         "RepoUrl": "https://github.com/PunishXIV/Splatoon",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 12,
+        "DalamudApiLevel": 13,
         "IconUrl": "https://love.puni.sh/resources/splatoon.png",
         "ImageUrls": [],
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkInstall": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.1.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.1.0/latest.zip",
-        "DownloadCount": 251154,
+        "DownloadLinkInstall": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.3.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.3.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/moewcorp/SplatoonX/releases/download/13.8.3.0/latest.zip",
+        "DownloadCount": 851154,
         "LastUpdated": "0"
     },
     {
@@ -117,20 +117,21 @@
         "Name": "SkipCutscene",
         "Description": "坏孩子辍学。",
         "InternalName": "SkipCutscene",
-        "AssemblyVersion": "1.2.2.6",
+        "AssemblyVersion": "1.2.3.0",
+        "TestingAssemblyVersion": "1.2.3.0",
         "RepoUrl": "https://github.com/MeowZWR/Dalamud.SkipCutscene",
         "ApplicableVersion": "any",
         "Tags": [
             "dungeon"
         ],
-        "DalamudApiLevel": 12,
+        "DalamudApiLevel": 13,
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "DownloadLinkInstall": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
-        "DownloadLinkTesting": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.2.6/latest.zip",
+        "DownloadLinkInstall": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.3.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.3.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/MeowZWR/Dalamud.SkipCutscene/releases/download/1.2.3.0/latest.zip",
         "IconUrl": "",
-        "DownloadCount": 10825
+        "DownloadCount": 11169
     },
     {
         "Author": "LeonBlade",
@@ -158,7 +159,7 @@
         "DownloadLinkUpdate": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.1-cn/BDTHPlugin.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/BDTHPlugin/icon.png",
         "Changelog": "",
-        "DownloadCount": 11371
+        "DownloadCount": 12550
     },
     {
         "Author": "Taurenkey (Puni.sh)",
@@ -181,7 +182,7 @@
         "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.63-cn/Artisan.zip",
         "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.3.63-cn/Artisan.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png",
-        "DownloadCount": 27922
+        "DownloadCount": 29001
     },
     {
         "Author": "akira0245, Ori, Kalle, Zune",
@@ -228,7 +229,7 @@
         ],
         "InternalName": "PandorasBox",
         "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-        "DownloadCount": 893535,
+        "DownloadCount": 894078,
         "LastUpdate": 1756336248939,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
@@ -249,7 +250,7 @@
         "Tags": [],
         "InternalName": "YesAlready",
         "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-        "DownloadCount": 875039,
+        "DownloadCount": 876900,
         "LastUpdate": 1757873731844,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/26/YesAlready/versions/latest.zip",
@@ -273,7 +274,7 @@
         ],
         "InternalName": "AutoHook",
         "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-        "DownloadCount": 805196,
+        "DownloadCount": 807032,
         "LastUpdate": 1756766366620,
         "DownloadLinkInstall": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
         "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/47/AutoHook/versions/latest.zip",
@@ -300,7 +301,7 @@
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
         "Changelog": "Portrait Helper\n\n- Fixed: Incorrect use of ImGui caused the game to crash when reordering presets in the Preset Browser. Sorry about that!",
-        "DownloadCount": 2429,
+        "DownloadCount": 3067,
         "LastUpdate": 1757945377,
         "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.4/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.4/latest.zip"
