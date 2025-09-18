@@ -288,7 +288,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "38.0.5",
+        "AssemblyVersion": "39.0.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -300,11 +300,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/dev/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\n- Fixed: Some textures weren't rendering since last update.",
+        "Changelog": "New Tweak: Glamour Dresser Keyboard Navigation\n\nEnables using arrow keys to select items in the Glamour Dresser.",
         "DownloadCount": 0,
-        "LastUpdate": 1758152684,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.5/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.5/latest.zip"
+        "LastUpdate": 1758194713,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v39.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v39.0.0/latest.zip"
     },
     {
         "ApplicableVersion": "any",
