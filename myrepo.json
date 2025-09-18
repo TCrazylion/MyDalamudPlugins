@@ -288,7 +288,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "38.0.4",
+        "AssemblyVersion": "38.0.5",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -300,11 +300,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/dev/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Portrait Helper\n\n- Fixed: Incorrect use of ImGui caused the game to crash when reordering presets in the Preset Browser. Sorry about that!",
-        "DownloadCount": 3067,
-        "LastUpdate": 1757945377,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.4/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.4/latest.zip"
+        "Changelog": "HaselTweaks\n\n- Fixed: Some textures weren't rendering since last update.",
+        "DownloadCount": 0,
+        "LastUpdate": 1758152684,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.5/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v38.0.5/latest.zip"
     },
     {
         "ApplicableVersion": "any",
