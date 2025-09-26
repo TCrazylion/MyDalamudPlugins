@@ -188,8 +188,8 @@
         "Author": "akira0245, Ori, Kalle, Zune",
         "Name": "MidiBard 2",
         "InternalName": "MidiBard2",
-        "AssemblyVersion": "3.2.0.5",
-        "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: discord.gg/ff14bard",
+        "AssemblyVersion": "3.2.1.1",
+        "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: ffbard.com",
         "ApplicableVersion": "any",
         "RepoUrl": "https://midibard.org",
         "Tags": [
@@ -207,13 +207,13 @@
             "https://i.imgur.com/1R13XF0.png"
         ],
         "IconUrl": "https://i.imgur.com/OSxqew4.png",
-        "Punchline": "Bard performance using midi files or keyboard.\nSupported by FFXIV Bards & Bands Community: discord.gg/ff14bard",
-        "Changelog": "V3 update. QoL changes and new features. Please join our Discord for details: discord.gg/ff14bard",
+        "Punchline": "Bard performance using midi files or keyboard.\nSupported by FFXIV Bards & Bands Community: ffbard.com",
+        "Changelog": "1. Better support on Bard MIDI Library: Show Playlist Menu(Triple dots on top right) -> BML Browser; 2. Rename Electric Guitar Modes and adding help messages. 3. Loads of fixes and QOL changes! 4. 更新部分加入中文翻譯 Please join our Discord for details: ffbard.com",
         "AcceptsFeedback": false,
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "DownloadCount": 191289,
-        "LastUpdate": "1755725486",
+        "DownloadCount": 221454,
+        "LastUpdate": "1758826155",
         "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
@@ -288,7 +288,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "39.0.0",
+        "AssemblyVersion": "40.0.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -300,11 +300,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/dev/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "New Tweak: Glamour Dresser Keyboard Navigation\n\nEnables using arrow keys to select items in the Glamour Dresser.",
+        "Changelog": "New Tweak: Cosmic Research in Duty List\n\nDisplays the progress of Cosmic Research in the Duty List during Cosmic Exploration.\n\nConfiguration options:\n\n- Show class score for achievements after completing Cosmic Research (default on)\n- Show completed datasets (default on)\n\nEnhanced Experience Bar\n\n- Removed: The Cosmic Research Bar has been replaced with the \"Cosmic Research in Duty List\" tweak.",
         "DownloadCount": 0,
-        "LastUpdate": 1758194713,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v39.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v39.0.0/latest.zip"
+        "LastUpdate": 1758824743,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.0/latest.zip"
     },
     {
         "ApplicableVersion": "any",
