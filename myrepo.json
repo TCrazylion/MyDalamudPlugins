@@ -288,7 +288,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "40.0.0",
+        "AssemblyVersion": "40.0.1",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -300,11 +300,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/dev/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "New Tweak: Cosmic Research in Duty List\n\nDisplays the progress of Cosmic Research in the Duty List during Cosmic Exploration.\n\nConfiguration options:\n\n- Show class score for achievements after completing Cosmic Research (default on)\n- Show completed datasets (default on)\n\nEnhanced Experience Bar\n\n- Removed: The Cosmic Research Bar has been replaced with the \"Cosmic Research in Duty List\" tweak.",
-        "DownloadCount": 0,
-        "LastUpdate": 1758824743,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.0/latest.zip"
+        "Changelog": "Cosmic Research in Duty List\n\n- Fixed: A rounding issue that causes datasets to be marked as complete when they actually weren't.",
+        "DownloadCount": 1116,
+        "LastUpdate": 1759073271,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
