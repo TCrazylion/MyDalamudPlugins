@@ -288,7 +288,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "40.0.2",
+        "AssemblyVersion": "40.0.3",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -300,11 +300,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/dev/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Glamour Dresser Keyboard Navigation\n\n- Fixed: Items didn't switch correctly when using arrow keys.",
+        "Changelog": "Commands\n\n- Fixed: `/reloadui` wasn't usable when on the Free Trial. (Thanks to @Enriath)",
         "DownloadCount": 0,
-        "LastUpdate": 1760792477,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.2/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.2/latest.zip"
+        "LastUpdate": 1761691811,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.3/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.0.3/latest.zip"
     },
     {
         "ApplicableVersion": "any",
