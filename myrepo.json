@@ -24,51 +24,51 @@
         "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings.",
         "Changelog": "",
         "InternalName": "ReAction",
-        "AssemblyVersion": "1.3.4.2",
+        "AssemblyVersion": "1.3.4.3",
         "RepoUrl": "https://github.com/UnknownX7/ReAction",
         "ApplicableVersion": "any",
         "CategoryTags": [
             "jobs"
         ],
-        "DalamudApiLevel": 13,
+        "DalamudApiLevel": 14,
         "IconUrl": "",
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
+        "DownloadLinkInstall": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.3/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.2/latest.zip",
-        "DownloadCount": 17201,
-        "LastUpdate": "1754732126"
+        "DownloadLinkTesting": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.3/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/UnknownX7/ReAction/releases/download/v1.3.4.3/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1766232634"
     },
     {
         "Author": "UnknownX",
         "Name": "NoClippy",
         "Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
         "Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
-        "Changelog": "Fixed for 7.3 (Thanks to Zeffuro)",
+        "Changelog": "Fixed for 7.4 (Thanks to Zeffuro)",
         "InternalName": "NoClippy",
-        "AssemblyVersion": "0.5.0.19",
+        "AssemblyVersion": "0.5.0.20",
         "RepoUrl": "https://github.com/UnknownX7/NoClippy",
         "ApplicableVersion": "any",
         "CategoryTags": [
             "jobs",
             "utility"
         ],
-        "DalamudApiLevel": 13,
+        "DalamudApiLevel": 14,
         "IconUrl": "",
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
+        "DownloadLinkInstall": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.19/latest.zip",
-        "DownloadCount": 48006,
-        "LastUpdate": "1754723794"
+        "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
+        "DownloadCount": 5769,
+        "LastUpdate": "1766199482"
     },
     {
         "Author": "NightmareXIV,Errer(本地特化)",
