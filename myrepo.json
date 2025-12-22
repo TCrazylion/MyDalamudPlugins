@@ -136,8 +136,8 @@
         "Name": "Burning Down the House",
         "Description": "根据坐标移动装修物品，解除游戏限制。",
         "InternalName": "BDTHPlugin",
-        "AssemblyVersion": "1.7.1",
-        "TestingAssemblyVersion": "1.7.1",
+        "AssemblyVersion": "1.7.2",
+        "TestingAssemblyVersion": "1.7.2",
         "RepoUrl": "https://github.com/MeowZWR/BDTHPlugin",
         "ApplicableVersion": "any",
         "Tags": [
@@ -149,15 +149,15 @@
             "furnishing",
             "LeonBlade"
         ],
-        "DalamudApiLevel": 13,
+        "DalamudApiLevel": 14,
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "DownloadLinkInstall": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.1-cn/BDTHPlugin.zip",
-        "DownloadLinkTesting": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.1-cn/BDTHPlugin.zip",
-        "DownloadLinkUpdate": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.1-cn/BDTHPlugin.zip",
+        "DownloadLinkInstall": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.2-cn/BDTHPlugin.zip",
+        "DownloadLinkTesting": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.2-cn/BDTHPlugin.zip",
+        "DownloadLinkUpdate": "https://github.com/MeowZWR/BDTHPlugin/releases/download/1.7.2-cn/BDTHPlugin.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/BDTHPlugin/icon.png",
         "Changelog": "",
-        "DownloadCount": 12853
+        "DownloadCount": 17694
     },
     {
         "Author": "Taurenkey (Puni.sh)",
