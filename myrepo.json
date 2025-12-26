@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "40.2.1",
+        "AssemblyVersion": "40.2.2",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Auto-select Soil and Seed\n\n- Fixed: Incorrectly inserted planter seeds in garden patches.",
+        "Changelog": "Portrait Helper\n\n- Fixed: The portrait update preview window was displayed due to a mismatched agent in ClientStructs.",
         "DownloadCount": 0,
-        "LastUpdate": 1766335026,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.2.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.2.1/latest.zip"
+        "LastUpdate": 1766720997,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.2.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.2.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
