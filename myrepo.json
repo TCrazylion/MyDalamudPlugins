@@ -170,17 +170,17 @@
             "Pants"
         ],
         "InternalName": "Artisan",
-        "AssemblyVersion": "4.0.4.16",
-        "TestingAssemblyVersion": "4.0.4.16",
+        "AssemblyVersion": "4.0.4.20",
+        "TestingAssemblyVersion": "4.0.4.20",
         "RepoUrl": "https://github.com/MeowZWR/Artisan",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
         "TestingDalamudApiLevel": 14,
-        "DownloadLinkInstall": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.16-cn/Artisan.zip",
-        "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.16-cn/Artisan.zip",
-        "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.16-cn/Artisan.zip",
+        "DownloadLinkInstall": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.20-cn/Artisan.zip",
+        "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.20-cn/Artisan.zip",
+        "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.20-cn/Artisan.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png",
-        "DownloadCount": 56652
+        "DownloadCount": 62695
     },
     {
         "Author": "akira0245, Ori, Kalle, Zune",
