@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "40.3.1",
+        "AssemblyVersion": "40.3.2",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\n- Fixed: The French translation of the chat command help message contained an unprocessed macro code.\n- Fixed: A debug subcommand was incorrectly enabled in release builds and disabled in debug builds. lol",
+        "Changelog": "HaselTweaks\n\n- Fixed: Plugin windows were not correctly attached to game windows when the multi-monitor feature is active in Dalamud and the game is played in windowed mode.",
         "DownloadCount": 0,
-        "LastUpdate": 1767132638,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.3.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.3.1/latest.zip"
+        "LastUpdate": 1767151775,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.3.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v40.3.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
