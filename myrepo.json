@@ -170,17 +170,17 @@
             "Pants"
         ],
         "InternalName": "Artisan",
-        "AssemblyVersion": "4.0.4.30",
-        "TestingAssemblyVersion": "4.0.4.30",
+        "AssemblyVersion": "4.0.4.32",
+        "TestingAssemblyVersion": "4.0.4.32",
         "RepoUrl": "https://github.com/MeowZWR/Artisan",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
         "TestingDalamudApiLevel": 14,
-        "DownloadLinkInstall": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.30-cn/Artisan.zip",
-        "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.30-cn/Artisan.zip",
-        "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.30-cn/Artisan.zip",
+        "DownloadLinkInstall": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.32-cn/Artisan.zip",
+        "DownloadLinkUpdate": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.32-cn/Artisan.zip",
+        "DownloadLinkTesting": "https://meowrs.com/https://github.com/MeowZWR/Artisan/releases/download/4.0.4.32-cn/Artisan.zip",
         "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png",
-        "DownloadCount": 75189
+        "DownloadCount": 81514
     },
     {
         "Author": "akira0245, Ori, Kalle, Zune",
@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "41.1.0",
+        "AssemblyVersion": "41.1.1",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Glamour Dresser Armoire Alert\n\n- Added: A new config option to ignore Armoire-qualified items that are part of an outfit.",
+        "Changelog": "- Updated ClientStructs for Patch 7.41.\n- Simplified code for Scrollable Tabs.",
         "DownloadCount": 0,
-        "LastUpdate": 1768677188,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.0/latest.zip"
+        "LastUpdate": 1769582917,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
