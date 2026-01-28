@@ -48,9 +48,9 @@
         "Name": "NoClippy",
         "Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
         "Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
-        "Changelog": "Fixed for 7.4 (Thanks to Zeffuro)",
+        "Changelog": "Fixed crash (Thanks to Zeffuro)",
         "InternalName": "NoClippy",
-        "AssemblyVersion": "0.5.0.20",
+        "AssemblyVersion": "0.5.0.21",
         "RepoUrl": "https://github.com/UnknownX7/NoClippy",
         "ApplicableVersion": "any",
         "CategoryTags": [
@@ -62,13 +62,13 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
+        "DownloadLinkInstall": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.21/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.20/latest.zip",
-        "DownloadCount": 5769,
-        "LastUpdate": "1766199482"
+        "DownloadLinkTesting": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.21/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/UnknownX7/NoClippy/releases/download/v0.5.0.21/latest.zip",
+        "DownloadCount": 2336,
+        "LastUpdate": "1769554730"
     },
     {
         "Author": "NightmareXIV,Errer(本地特化)",
