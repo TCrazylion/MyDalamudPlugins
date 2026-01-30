@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "41.1.1",
+        "AssemblyVersion": "41.1.2",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "- Updated ClientStructs for Patch 7.41.\n- Simplified code for Scrollable Tabs.",
+        "Changelog": "Cosmic Research in Duty List\n\n- Fixed: Latest Dataset wasn't taken into account. (Thanks to @Scrxtchy)",
         "DownloadCount": 0,
-        "LastUpdate": 1769582917,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.1/latest.zip"
+        "LastUpdate": 1769773109,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
