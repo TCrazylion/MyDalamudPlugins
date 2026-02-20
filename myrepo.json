@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "41.1.5",
+        "AssemblyVersion": "41.1.6",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\n- Changed: Reworked some internal item-related code. If you notice anything weird, please report it. Thanks!\n- Fixed: A debug subcommand was accidentally enabled in release builds and was additionally causing a harmless error when the plugin unloaded.",
+        "Changelog": "Gear Set Grid\n\n- Fixed: Item rarity color and dye color in the tooltip were not displayed correctly.",
         "DownloadCount": 0,
-        "LastUpdate": 1770363499,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.5/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.5/latest.zip"
+        "LastUpdate": 1771535918,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.6/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v41.1.6/latest.zip"
     },
     {
         "ApplicableVersion": "any",
