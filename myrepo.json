@@ -186,7 +186,7 @@
         "Author": "akira0245, Ori, Kalle, Zune",
         "Name": "MidiBard 2",
         "InternalName": "MidiBard2",
-        "AssemblyVersion": "3.2.4.1",
+        "AssemblyVersion": "3.2.4.2",
         "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: ffbard.com",
         "ApplicableVersion": "any",
         "RepoUrl": "https://midibard.org",
@@ -211,7 +211,7 @@
         "IsHide": "False",
         "IsTestingExclusive": "False",
         "DownloadCount": 221454,
-        "LastUpdate": "1777496766",
+        "LastUpdate": "1777585081",
         "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "42.1.0.0",
+        "AssemblyVersion": "42.1.1.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Tweak removed: Outfit Glamour Try On\n\nIt was added to the game!",
+        "Changelog": "Aether Current Helper\n\n- Fixed: The windows draw condition was incorrectly inverted.",
         "DownloadCount": 0,
-        "LastUpdate": 1777670874,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.0/latest.zip"
+        "LastUpdate": 1777715169,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
