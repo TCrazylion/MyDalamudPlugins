@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "42.0.0.0",
+        "AssemblyVersion": "42.1.0.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\n- Updated for Patch 7.45.\n- Slightly updated the main plugin window. It's now possible to search for tweaks.\n\nNew Tweak: Armoire Quick Store\n\nShows a button above the \"Armoire\" window to place the first item in the list into the armoire.\n\nGear Set Grid\n\n- Changed: The soul crystals item level is now hidden. It's always 30.\n\nGlamour Dresser Armoire Alert\n\n- Added: Outfits can now be withdrawn from the Glamour Dresser.  \n  Note: It will extract all items of an outfit. If you have the game's setting enabled to store items in the Inventory, make sure to have enough space or it will throw excess items into your Armoury.",
-        "DownloadCount": 5114,
-        "LastUpdate": 1777548027,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.0.0/latest.zip"
+        "Changelog": "Tweak removed: Outfit Glamour Try On\n\nIt was added to the game!",
+        "DownloadCount": 0,
+        "LastUpdate": 1777670874,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v42.1.0/latest.zip"
     },
     {
         "ApplicableVersion": "any",
