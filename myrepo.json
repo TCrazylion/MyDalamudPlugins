@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "44.0.0.0",
+        "AssemblyVersion": "44.0.1.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "New Tweak: Enhanced Glamour Dresser\n\nNot so sure about this yet, but it's a start.\n\nConfiguration options:\n\n- Automatically select missing items from the inventory when opening the Outfit Glamour Creation\n\nTweak reworked: Glamour Dresser Alert\n\nPreviously called Glamour Dresser Armoire Alert.\n\nThe window now also lists items that can be stored as outfit set.",
+        "Changelog": "Enhanced Glamour Dresser\n\n- Fixed: The single config option wasn't event checked, so it was always active when the tweak was enabled.\n\nShop Item Icons\n\n- Fixed: Some shops were not displaying item icons for all items, or not working at all.",
         "DownloadCount": 0,
-        "LastUpdate": 1778670690,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.0/latest.zip"
+        "LastUpdate": 1778688753,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
