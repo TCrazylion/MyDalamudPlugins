@@ -286,7 +286,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "44.0.1.0",
+        "AssemblyVersion": "45.0.2.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -298,11 +298,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Enhanced Glamour Dresser\n\n- Fixed: The single config option wasn't event checked, so it was always active when the tweak was enabled.\n\nShop Item Icons\n\n- Fixed: Some shops were not displaying item icons for all items, or not working at all.",
+        "Changelog": "Enhanced Fitting Room\n\n- Fixed: The first try on after login would not show facewear. The tweak now falls back to the local players facewear when the try on window has no facewear saved yet.\n\nEnhanced Glamour Dresser\n\n- Fixed: The tweak now automatically selects items when switching sets too, not just when the Outfit Glamour Creation window was first opened.",
         "DownloadCount": 0,
-        "LastUpdate": 1778688753,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v44.0.1/latest.zip"
+        "LastUpdate": 1778955677,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v45.0.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v45.0.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
