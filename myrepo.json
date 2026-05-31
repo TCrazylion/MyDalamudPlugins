@@ -358,5 +358,31 @@
         "DownloadLinkInstall": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
         "DownloadLinkTesting": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip",
         "DownloadLinkUpdate": "https://github.com/TCrazylion/MyDalamudPlugins/raw/main/plugins/chat2.zip"
+    },
+    {
+          "Author": "Attick, daemitus, maintained by Khayle",
+          "Name": "XIV Combo",
+          "InternalName": "XIVCombo",
+          "AssemblyVersion": "2.0.15.0",
+          "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. /pcombo to open menu",
+          "ApplicableVersion": "any",
+          "RepoUrl": "https://github.com/MKhayle/XivComboPlugin",
+          "Tags": [
+            "Combo",
+            "XIVCombo",
+            "pcombo"
+          ],
+          "DalamudApiLevel": 15,
+          "LoadRequiredState": 0,
+          "LoadSync": false,
+          "CanUnloadAsync": false,
+          "LoadPriority": 0,
+          "Punchline": "PvP, but in PvE!",
+          "AcceptsFeedback": true,
+          "_isDip17Plugin": true,
+          "_Dip17Channel": "stable"
+          "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
+          "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
+          "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip"
     }
 ]
