@@ -380,7 +380,7 @@
           "Punchline": "PvP, but in PvE!",
           "AcceptsFeedback": true,
           "_isDip17Plugin": true,
-          "_Dip17Channel": "stable"
+          "_Dip17Channel": "stable",
           "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
           "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
           "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip"
