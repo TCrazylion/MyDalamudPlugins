@@ -1,0 +1,79 @@
+[
+  {
+    "plugins": ["Something Need Doing"],
+    "source_repo": "https://puni.sh/",
+    "source_url": "https://puni.sh/api/repository/croizat",
+    "enabled": true
+  },
+  {
+    "plugins": ["ReAction", "NoClippy"],
+    "source_repo": "https://github.com/UnknownX7/ReAction",
+    "source_url": "https://raw.githubusercontent.com/UnknownX7/DalamudPluginRepo/master/pluginmaster.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["Splatoon"],
+    "source_repo": "https://github.com/moewcorp/SplatoonX",
+    "source_url": "https://raw.githubusercontent.com/gamous/DalamudPluginsCN-Dev/main/MordionGaol.json",
+    "enabled": false
+  },
+  {
+    "plugins": ["Lock"],
+    "source_repo": "https://github.com/tssailzz8/MyPlugins",
+    "source_url": "https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/pluginmaster.json",
+    "enabled": false
+  },
+  {
+    "plugins": ["SkipCutscene", "Burning Down the House"],
+    "source_repo": "https://github.com/MeowZWR",
+    "source_url": "https://raw.githubusercontent.com/meowzwr/dalamudplugin/main/repo.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["Artisan"],
+    "source_repo": "https://github.com/MeowZWR",
+    "source_url": "https://plogon.meowrs.com/pants",
+    "enabled": true
+  },
+  {
+    "plugins": ["MidiBard 2"],
+    "source_repo": "https://github.com/reckhou/DalamudPlugins-Ori",
+    "source_url": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["Pandora's Box", "Yes Already"],
+    "source_repo": "https://puni.sh/",
+    "source_url": "https://puni.sh/api/plugins",
+    "enabled": true
+  },
+  {
+    "plugins": ["AutoHook"],
+    "source_repo": "https://puni.sh/",
+    "source_url": "https://love.puni.sh/ment.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["HaselTweaks"],
+    "source_repo": "https://github.com/Haselnussbomber/HaselTweaks",
+    "source_url": "https://raw.githubusercontent.com/Haselnussbomber/MyDalamudPlugins/main/repo.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["Heliosphere"],
+    "source_repo": "https://heliosphere.app/",
+    "source_url": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+    "enabled": true
+  },
+  {
+    "plugins": ["XIV Combo"],
+    "source_repo": "https://github.com/MKhayle/XivComboPlugin",
+    "source_url": "https://github.com/goatcorp/PluginDistD17/blob/main/stable/XIVCombo/XIVCombo.json",
+    "enabled": true,
+    "extra_fields": {
+      "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
+      "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip",
+      "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/refs/heads/main/stable/XIVCombo/latest.zip"
+    }
+  }
+]
