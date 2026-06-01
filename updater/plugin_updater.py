@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Any
 from urllib.parse import urlparse
 
 class PluginUpdater:
-    def __init__(self, config_file: str = "origin_repo.json", output_file: str = "myrepo.json"):
+    def __init__(self, config_file: str = "origin_repo.json", output_file: str = "../myrepo.json"):
         self.config_file = config_file
         self.output_file = output_file
         self.sources = []

@@ -46,7 +46,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r updater/requirements.txt
     
     - name: Backup current myrepo.json
       run: |
@@ -61,12 +61,12 @@ jobs:
       id: update_plugins
       run: |
         echo "Starting plugin update..."
-        python plugin_updater.py > update_log.txt 2>&1
+        cd updater && python plugin_updater.py > ../update_log.txt 2>&1
         echo "Plugin update completed"
         
         # 显示日志摘要
         echo "=== Update Log Summary ==="
-        grep -E "(找到插件|未找到插件|成功保存|跳过)" update_log.txt || true
+        grep -E "(找到插件|未找到插件|成功保存|跳过)" ../update_log.txt || true
         echo "=========================="
       continue-on-error: true
     
