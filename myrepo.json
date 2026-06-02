@@ -225,7 +225,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "47.1.1.0",
+        "AssemblyVersion": "47.2.0.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -237,11 +237,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Portrait Helper\n\n- Maybe fixed: An error \"Unsupported image format. Expected DXGI_FORMAT_B8G8R8A8_UNORM, got DXGI_FORMAT_B8G8R8A8_TYPELESS.\" when saving presets. I just allowed the TYPELESS format too, even though I don't know how it can be TYPELESS. Hope it works!",
+        "Changelog": "Shop Item Icons\n\n- Added: Support for icons in the Exchange window used by the Calamity Salvager when exchanging old pigments for all-purpose pigments.",
         "DownloadCount": 0,
-        "LastUpdate": 1780327976,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.1.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.1.1/latest.zip"
+        "LastUpdate": 1780410388,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.0/latest.zip"
     },
     {
         "ApplicableVersion": "any",
