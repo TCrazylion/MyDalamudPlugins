@@ -7,15 +7,15 @@
         "Tags": [],
         "InternalName": "SomethingNeedDoing",
         "RepoUrl": "https://github.com/Jaksuhn/SomethingNeedDoing",
-        "DownloadCount": 742541,
-        "LastUpdate": 1779781713,
-        "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.3/install/latest.zip",
-        "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.3/update/latest.zip",
-        "AssemblyVersion": "15.3",
+        "DownloadCount": 752931,
+        "LastUpdate": 1780995044,
+        "DownloadLinkInstall": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.4/install/latest.zip",
+        "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/25/SomethingNeedDoing/versions/15.4/update/latest.zip",
+        "AssemblyVersion": "15.4",
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
         "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/25/icon-6h5x17j9gpr.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/25"
     },
     {
         "Author": "UnknownX",
