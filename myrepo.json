@@ -225,7 +225,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "47.2.0.0",
+        "AssemblyVersion": "47.2.1.0",
         "Description": "Keep on tweaking.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -237,11 +237,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Shop Item Icons\n\n- Added: Support for icons in the Exchange window used by the Calamity Salvager when exchanging old pigments for all-purpose pigments.",
+        "Changelog": "- Updated ClientStructs for Patch 7.51 HotFix.\n\nPortrait Helper\n\n- Updated: The portrait checksum check is delayed a bit further after the client receives the packet that updates the local players gear visibility, which happens very shortly after switching the class/job. Also adjusted the checking logic a little with this.",
         "DownloadCount": 0,
-        "LastUpdate": 1780410388,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.0/latest.zip"
+        "LastUpdate": 1781265592,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v47.2.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
