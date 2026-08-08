@@ -228,7 +228,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "49.2.1.0",
+        "AssemblyVersion": "49.2.2.0",
         "Description": "There is a lot of tweaks with a bunch of options.\r\nFor a detailed description please visit the plugins repository or open /haseltweaks when installed.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -335,11 +335,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\n- Updated ClientStructs for Patch 7.51 HotFix.\n\nAuto-open Recipe\n\n- Changed: Increased the delay between items being added and the check for daily quest with recipe step from 100ms to 500ms and added an optional second check after 1 second.",
+        "Changelog": "HaselTweaks\n\n- Updated ClientStructs for Patch 7.55 HotFix.\n\nEnhanced Login/Logout\n\n- Fixed: When character data is not available due to congestion, pets would not properly despawn on hovering other characters.\n\nForced Cutscene Sounds\n\n- Updated: The tweak now checks and unmutes sounds whenever a cutscene-related event task was found. For example, this allows the tweak to unmute sounds while the games credits are playing.\n\nScrollable Tabs\n\n- Fixed: In the Fish Guide, scrolling the search results list will no longer incorrectly scroll the tabs.",
         "DownloadCount": 0,
-        "LastUpdate": 1785239932,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.1/latest.zip"
+        "LastUpdate": 1786118194,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
