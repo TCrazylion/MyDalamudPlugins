@@ -228,7 +228,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "49.2.3.0",
+        "AssemblyVersion": "49.2.4.0",
         "Description": "There is a lot of tweaks with a bunch of options.\r\nFor a detailed description please visit the plugins repository or open /haseltweaks when installed.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -335,11 +335,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Glamour Dresser Alert\n\n- Fixed: An incorrect translation key was used for the armoire-storable items tree node.",
+        "Changelog": "Commands\n\n- Changed: `/reloadui` now waits 100ms between changing scenes. Maybe this fixes some textures not unload properly.",
         "DownloadCount": 0,
-        "LastUpdate": 1786190860,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.3/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.3/latest.zip"
+        "LastUpdate": 1786378804,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.4/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.2.4/latest.zip"
     },
     {
         "ApplicableVersion": "any",
