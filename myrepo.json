@@ -228,7 +228,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "49.4.0.0",
+        "AssemblyVersion": "49.4.1.0",
         "Description": "There is a lot of tweaks with a bunch of options.\r\nFor a detailed description please visit the plugins repository or open /haseltweaks when installed.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -328,18 +328,18 @@
             "Simple Aethernet List"
         ],
         "DalamudApiLevel": 15,
-        "LoadRequiredState": 1,
+        "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": true,
         "LoadPriority": 0,
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Enhanced Experience Bar\n\n- Added: A config option to hide the PvP-Series bar when all meaningful rewards were claimed (default on).\n- Changed: Custom bars (mainly Companion Bar and PvP-Series Bar) no longer show in synced content. I didn't find it particularly helpful not seeing the synced level while doing leveling roulette.",
+        "Changelog": "HaselTweaks\n\nChanged when the plugin loads to avoid a Dalamud bug that cancels the plugin load after 60 seconds when, I assume, the game is compiling shaders for a really long time.",
         "DownloadCount": 0,
-        "LastUpdate": 1786622353,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.0/latest.zip"
+        "LastUpdate": 1786660944,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
