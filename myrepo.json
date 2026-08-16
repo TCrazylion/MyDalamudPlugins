@@ -228,7 +228,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "49.4.1.0",
+        "AssemblyVersion": "49.4.2.0",
         "Description": "There is a lot of tweaks with a bunch of options.\r\nFor a detailed description please visit the plugins repository or open /haseltweaks when installed.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -335,11 +335,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "HaselTweaks\n\nChanged when the plugin loads to avoid a Dalamud bug that cancels the plugin load after 60 seconds when, I assume, the game is compiling shaders for a really long time.",
+        "Changelog": "Commands\n\n- Changed: `/reloadui` now uses a different function, changing the game scene to Lobby and back to Game within 10 ticks. Works on my machine.  \n  Fun fact: the Aesthetician also moves you into the Lobby scene, which is why UI mods are applied when you cancel out of it and load back to the Game scene. :)",
         "DownloadCount": 0,
-        "LastUpdate": 1786660944,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.1/latest.zip"
+        "LastUpdate": 1786847078,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v49.4.2/latest.zip"
     },
     {
         "ApplicableVersion": "any",
