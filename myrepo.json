@@ -123,7 +123,7 @@
         "Author": "akira0245, Ori, Kalle, Zune",
         "Name": "MidiBard 2",
         "InternalName": "MidiBard2",
-        "AssemblyVersion": "3.2.4.5",
+        "AssemblyVersion": "3.2.5.0",
         "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: ffbard.com",
         "ApplicableVersion": "any",
         "RepoUrl": "https://midibard.org",
@@ -148,7 +148,7 @@
         "IsHide": "False",
         "IsTestingExclusive": "False",
         "DownloadCount": 221454,
-        "LastUpdate": "1779258716",
+        "LastUpdate": "1779478672",
         "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
@@ -228,7 +228,7 @@
         "Author": "Haselnussbomber",
         "Name": "HaselTweaks",
         "InternalName": "HaselTweaks",
-        "AssemblyVersion": "50.0.0.0",
+        "AssemblyVersion": "50.0.1.0",
         "Description": "There is a lot of tweaks with a bunch of options.\r\nFor a detailed description please visit the plugins repository or open /haseltweaks when installed.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Haselnussbomber/HaselTweaks",
@@ -332,11 +332,11 @@
         "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/HaselTweaks/refs/heads/main/HaselTweaks/Assets/Icon.png",
         "Punchline": "A collection of quality of life tweaks.",
         "AcceptsFeedback": true,
-        "Changelog": "Tweak removed: Scrollable Tabs\n\nThis is now a standalone plugin on the Dalamud main repository. Please install Scrollable Tabs via the Plugin Installer.\n\nTweak removed: Shop Item Icons\n\nThis is now a standalone plugin on the Dalamud main repository. Please install Shop Item Icons via the Plugin Installer.",
+        "Changelog": "HaselTweaks\n\n- Updated ClientStructs for Patch 7.56.\n- Tweaks now load asynchronously.",
         "DownloadCount": 0,
-        "LastUpdate": 1787917117,
-        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v50.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v50.0.0/latest.zip"
+        "LastUpdate": 1788866608,
+        "DownloadLinkInstall": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v50.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Haselnussbomber/HaselTweaks/releases/download/v50.0.1/latest.zip"
     },
     {
         "ApplicableVersion": "any",
